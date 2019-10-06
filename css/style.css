@@ -1,0 +1,66 @@
+
+body {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  padding-top: 0;
+}
+
+label {
+  display: inline-block;
+  width: 210px;
+  text-align: right;
+}
+
+.navbar {
+  background-color: #616F39;
+  margin-bottom: 1rem;
+}
+
+.seahorse-img {
+  width: 600px;
+  margin-bottom: 1rem;
+}
+
+.seahorse-p {
+  width: 37rem;
+  margin-bottom: 1rem;
+  height: 400px;
+}
+
+.contakt-daten {
+  line-height: 0.5;
+}
+
+.sales-title {
+  font-family: Mukta;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.brand-name {
+  font-size: 0.9rem;
+}
+
+.col-lg-6 {
+  text-align: center;
+}
+
+.pic-text {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 900px) {
+  .seahorse-p {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .pic-text {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+}
